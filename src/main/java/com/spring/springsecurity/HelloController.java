@@ -11,7 +11,7 @@ public class HelloController {
     public  String hello(){
         return  "Hello Spring Security a3oooo !  Hello ";
     }
-    //  GET http://localhost:8080/hi
+    //  GET  http://localhost:8080/hi
     @GetMapping("/hi")
     public  String hi(){
         return  "Hello Spring Security a3oooo !! Hi ";
